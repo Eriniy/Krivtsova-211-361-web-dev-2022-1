@@ -1,0 +1,27 @@
+<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
+<html long="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style_form_2.css">
+</head>
+<body>
+    <form name="log_in" action="https://httpbin.org/post" enctype="multipart/form-data" method="post">
+        <legend>Вход</legend>
+        <div class="input_form">
+            <input type="text" name="login" placeholder="Login">
+        </div>
+        <div class="input_form">
+            <input type="password" name="pass" placeholder="Passowrd">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="remember" value="Запомнить меня" class="checkbox">Запомнить меня
+        </div>
+        <div class="input_form">
+            <input type="submit" value="Войти">
+        </div>
+    </form>
+   </body>
+</html>

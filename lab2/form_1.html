@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
+<html long="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Krivaya</title>
+
+    <link rel="stylesheet" href="style_form_1.css">
+</head>
+<body>
+    <form name="log_in" action="https://httpbin.org/post" enctype="multipart/form-data" method="post" class="form">
+        <legend>Форма обратной связи</legend>
+        <div class="block field_block">
+            <input type="text" name="fio" placeholder="ФИО">
+        </div>
+        <div class="block field_block">
+            <input type="text" name="email" placeholder="email">
+        </div>
+
+        <div class="block radio_block">
+            <p>Откуда вы узнали о нас?</p>
+            <div class="checkbox_box">
+                <label><input name="know" type="radio" value="1">от друга</label>
+                <label><input name="know" type="radio" value="2">в интернете</label>
+                <label><input name="know" type="radio" value="2">реклама</label>
+            </div>
+            
+        </div>
+
+        <div class="block selector_block">
+            <select size="1" name="typemes">
+                <option selected disabled>выберите тип</option>
+                <option value="жалоба">жалоба</option>
+                <option value="предложение">предложение</option>
+            </select>
+        </div>
+
+        <div class="block textarea_block">
+            <p><label for="textarea">Введите текст обращения</label></p>
+            <textarea name="textarea"></textarea>
+        </div>
+
+        <div class="block file_block">
+            <input type="file" name="file">
+        </div>
+
+        <div class="block checkbox_block">
+            <label>
+                <input name="know" type="checkbox" value="network">Даю согласие на обработку<p>персональной информации</p>
+            </label>
+        </div>
+
+        <div class="block bth_block">
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+</body>
+</html>
