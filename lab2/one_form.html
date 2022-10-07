@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html long="ru">
+<head>
+    <meta charset="utf-8">
+    <title>FirstPage</title>
+    <!-- подключение стилей gooleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap" rel="stylesheet">
+    <!-- подключние файла стилей -->
+    <link rel="stylesheet" href="styleMain.css">
+</head>
+<body>
+    <header>
+        <a href="main_page.html" id="logo">Главная</a>
+        <a href="#"><span class="nav">Обо мне</span></a>
+        <a href="#"><span class="nav">Навыки</span></a>
+        <span class="right">
+            <a href="one_form.html"><span class="nav">Обратная связь</span></a>
+            <a href="two_form.html"><span class="nav">Войти</span></a>
+        </span>
+        
+    </header>
+    <div class="wrap">
+        <main class="main_form1">
+            <form name="log_in" action="https://httpbin.org/post" enctype="multipart/form-data" method="post" class="center">
+                <legend class="form1_legend">Форма обратной связи</legend>
+                <input type="text" name="fio" placeholder="ФИО" class="txt_block"><br>
+                <input type="text" name="email" placeholder="email" class="txt_block"><br>
+                <p>Откуда вы узнали о нас?</p>
+                <div class="radio">
+                    <input name="know" type="radio" value="1"><label>от друга</label>
+                    <input name="know" type="radio" value="2"><label>в интернете</label>
+                    <input name="know" type="radio" value="2"><label>реклама</label>
+                </div>
+                <select size="1" name="typemes" class="select">
+                    <option selected disabled>выберите тип</option>
+                    <option value="жалоба">жалоба</option>
+                    <option value="предложение">предложение</option>
+                </select>
+                <p><label for="textarea">Введите текст обращения</label></p>
+                <textarea name="textarea"></textarea><br>
+                <input type="file" name="file" class="file"><br>
+                <input type="checkbox" name="know" value="nework" class="checkbox"><label class="form1_label"><span>Даю согласие на обработку</span><p>персональных данных</p></label><br>
+                <input type="submit" value="Отправить" class="button">
+            </form>          
+        </main>
+        <footer>
+
+            <span class="left">Все права защищены &copy; 2022</span>
+            <span class="right">
+                <span class="contact">+7 (991) 648-48-27</span>
+                <span class="contact">yul.krivaya@bk.ru</span>
+            </span>
+        
+        </footer>
+    </div>
+</body>
+</html>
