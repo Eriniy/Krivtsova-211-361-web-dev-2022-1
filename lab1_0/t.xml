@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<general attribute="">
+    <colonelA attribute="">
+
+    </colonelA>
+    <colonelB attribute="">
+        <captainA attribute="">
+            <sergeantA attribute="">
+
+            </sergeantA>
+            <sergeantB attribute="">
+                <privateA attribute="">
+
+                </privateA>
+                <privateB attribute="">
+
+                </privateB>
+            </sergeantB>
+        </captainA>
+        <captainB attribute="">
+
+        </captainB>
+        <captainC attribute="">
+
+        </captainC>
+    </colonelB>
+</general>
+
+
+
+
+
+
