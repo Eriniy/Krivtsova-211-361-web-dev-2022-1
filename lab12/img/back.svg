@@ -1,0 +1,21 @@
+<svg width="1912" height="1103" viewBox="0 0 1912 1103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M973.739 645.509C950.484 942.9 748.493 828.713 650.404 734.446C469.282 815.722 44.519 895.833 -205.563 566.065C-455.645 236.297 185.749 15.9515 537.706 -53C692.74 55.9234 996.994 348.118 973.739 645.509Z" fill="url(#paint0_radial_337_849)"/>
+<path d="M-5.27894 735.508C127.086 409.966 496.653 27.7788 916 1103.37C525.99 1464.9 -204.279 1897.46 -5.27894 735.508Z" fill="url(#paint1_radial_337_849)"/>
+<path d="M378.8 268.938C69.4477 198.822 -31.4751 530.844 -43.8226 708C-71.8852 587.454 -176.921 266.343 -32.4547 -25.7658C112.011 -317.874 376.5 -39.4997 535 -2.49963C693.5 34.5004 797.136 363.757 378.8 268.938Z" fill="url(#paint2_radial_337_849)"/>
+<path d="M1121 241.152C1139.37 197.095 1208.23 126.782 1336.69 197.98C1465.14 269.178 1530.84 159.559 1560.85 101.495C1612.62 1.31827 1651.83 -19.8735 1774.53 127.52" stroke="black" stroke-width="15" stroke-linecap="round"/>
+<path d="M1080 834.31C1122.51 934.487 1196.45 996.213 1355.79 875.37C1509.99 733.287 1576.23 824.771 1669.26 902.41C1780.1 994.922 1904.97 893.347 1903.99 823.795" stroke="black" stroke-width="15" stroke-linecap="round"/>
+<defs>
+<radialGradient id="paint0_radial_337_849" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(539.943 658.5) rotate(-67.2402) scale(684.342 905.543)">
+<stop stop-color="#6850FF"/>
+<stop offset="1" stop-color="#FD68B0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_337_849" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(351.112 635.047) rotate(102.394) scale(1502.45 1321.3)">
+<stop stop-color="#6850FF"/>
+<stop offset="1" stop-color="#FD68B0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_337_849" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(219.688 270.938) rotate(-158.985) scale(548.785 625.977)">
+<stop stop-color="#6850FF"/>
+<stop offset="1" stop-color="#FD68B0"/>
+</radialGradient>
+</defs>
+</svg>
